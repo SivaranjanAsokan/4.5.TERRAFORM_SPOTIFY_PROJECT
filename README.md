@@ -1,9 +1,9 @@
 # 🎶Spotify_PlayList_Creation💽
 
-## 🎧PLAYLIST-1
+## 🎧PLAYLIST-1🎉
 ![PLAYLIST-1](https://github.com/user-attachments/assets/47938fe6-ce08-45d0-bd89-cb6ba2ce5533)
 
-## 🎧PLAYLIST-2
+## 🎧PLAYLIST-2🎉
 ![PLAYLIST-2](https://github.com/user-attachments/assets/a0184966-c07f-4ddd-aa93-dec61535d9aa)
 
 
@@ -127,29 +127,46 @@ provider "spotify" {
   api_key = var.spotify_api_key
 }
 ```
+Step-1: Open Spotify Developer page & create app :
 ![1 Create-app](https://github.com/user-attachments/assets/4f4cb14f-c32c-44e6-bd90-e818b02a2631)
 
+Step-2: Enter name, description & Redirect path: http://localhost:27228/spotify_callback.
 ![2](https://github.com/user-attachments/assets/ce08a6c8-cf95-494e-b432-2c806a8e0fcf)
 
+Step-3: Open created App:
 ![3](https://github.com/user-attachments/assets/d0ccdb4d-4207-42fa-9fbe-6a52b04d44c2)
 
+Step-4: Open Settings Option:
 ![4](https://github.com/user-attachments/assets/d6952e01-a8c7-4ab8-a1a5-1aa277e95f76)
 
+Step-5: Get the Client ID & Serect:
 ![5](https://github.com/user-attachments/assets/8cc2a070-dece-4171-a3ed-eabd1e059ea6)
 
+Step-6: Set env variable :
+i)export SPOTIFY_PROXY_BASE_URI=http://localhost:27228/spotify_callback
+ii)create environment file with 
 ![6](https://github.com/user-attachments/assets/3d30eb81-de38-4ddb-bcae-ef3a04d7c408)
 
-![6api](https://github.com/user-attachments/assets/14e653c0-1d16-4b47-b95d-f02491bef4fb)
-
+Step-7: Set value:  
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
 ![7](https://github.com/user-attachments/assets/e7913977-1c76-40f0-9880-e4ba8fc58ab3)
 
+Step-8: Run docker command
+$ docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
+![6api](https://github.com/user-attachments/assets/14e653c0-1d16-4b47-b95d-f02491bef4fb)
+
+Step-9: Click the link & approve in browser:
 ![7api](https://github.com/user-attachments/assets/2a3c2e19-93a9-43b9-8894-51f4982956a0)
 
+Step-10: Crete terraform files:
 ![8](https://github.com/user-attachments/assets/32fe98f8-123b-4345-be57-fcd7bf3ccbd4)
 
 ![9](https://github.com/user-attachments/assets/7f759938-816e-490a-9c2c-6328a606dcda)
 
 ![10](https://github.com/user-attachments/assets/c660436d-2538-4eb8-a50b-f43422cfa2cf)
+
+# After All this Run Terraform commands & See the Result 🎉🎉🎉
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # spotify_auth_proxy
