@@ -1,4 +1,4 @@
-# 🎶Spotify_PlayList_Creation🎶
+# 🎶Spotify_PlayList_Creation💽
 
 ## 🎧PLAYLIST-1
 ![PLAYLIST-1](https://github.com/user-attachments/assets/47938fe6-ce08-45d0-bd89-cb6ba2ce5533)
