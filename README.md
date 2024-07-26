@@ -1,9 +1,9 @@
 # Spotify_PlayList_Creation
 
-# PLAYLIST-1
+## PLAYLIST-1
 ![PLAYLIST-1](https://github.com/user-attachments/assets/47938fe6-ce08-45d0-bd89-cb6ba2ce5533)
 
-# PLAYLIST-2
+## PLAYLIST-2
 ![PLAYLIST-2](https://github.com/user-attachments/assets/a0184966-c07f-4ddd-aa93-dec61535d9aa)
 
 
