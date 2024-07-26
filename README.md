@@ -1,4 +1,7 @@
 # terraform-provider-spotify
+![PLAYLIST-1](https://github.com/user-attachments/assets/47938fe6-ce08-45d0-bd89-cb6ba2ce5533)
+![PLAYLIST-2](https://github.com/user-attachments/assets/a0184966-c07f-4ddd-aa93-dec61535d9aa)
+
 
 [![docs](https://img.shields.io/static/v1?label=docs&message=terraform&color=informational&style=for-the-badge&logo=terraform)](https://registry.terraform.io/providers/conradludgate/spotify/latest/docs)
 ![downloads](https://img.shields.io/badge/dynamic/json?label=downloads&query=%24.data.attributes.downloads&url=https%3A%2F%2Fregistry.terraform.io%2Fv2%2Fproviders%2F1325&style=for-the-badge&color=brightgreen&logo=terraform)
@@ -120,3 +123,34 @@ provider "spotify" {
   api_key = var.spotify_api_key
 }
 ```
+![1 Create-app](https://github.com/user-attachments/assets/4f4cb14f-c32c-44e6-bd90-e818b02a2631)
+
+![2](https://github.com/user-attachments/assets/ce08a6c8-cf95-494e-b432-2c806a8e0fcf)
+
+![3](https://github.com/user-attachments/assets/d0ccdb4d-4207-42fa-9fbe-6a52b04d44c2)
+
+![4](https://github.com/user-attachments/assets/d6952e01-a8c7-4ab8-a1a5-1aa277e95f76)
+
+![5](https://github.com/user-attachments/assets/8cc2a070-dece-4171-a3ed-eabd1e059ea6)
+
+![6](https://github.com/user-attachments/assets/3d30eb81-de38-4ddb-bcae-ef3a04d7c408)
+
+![6api](https://github.com/user-attachments/assets/14e653c0-1d16-4b47-b95d-f02491bef4fb)
+
+![7](https://github.com/user-attachments/assets/e7913977-1c76-40f0-9880-e4ba8fc58ab3)
+
+![7api](https://github.com/user-attachments/assets/2a3c2e19-93a9-43b9-8894-51f4982956a0)
+
+![8](https://github.com/user-attachments/assets/32fe98f8-123b-4345-be57-fcd7bf3ccbd4)
+
+![9](https://github.com/user-attachments/assets/7f759938-816e-490a-9c2c-6328a606dcda)
+
+![10](https://github.com/user-attachments/assets/c660436d-2538-4eb8-a50b-f43422cfa2cf)
+
+
+
+
+
+
+
+
